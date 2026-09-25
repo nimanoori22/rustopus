@@ -3,6 +3,11 @@ name = "rustopus"
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
+description = "Async HTTP request orchestration: per-API rate limiting, bounded concurrency, and pluggable retry policies."
+repository = "https://github.com/nimanoori22/rustopus"
+readme = "README.md"
+keywords = ["http", "reqwest", "rate-limit", "retry", "async"]   # max 5, each ≤20 chars
+categories = ["asynchronous", "network-programming"]
 
 [dependencies]
 reqwest   = { version = "0.13.5", default-features = false, features = ["rustls"] }
